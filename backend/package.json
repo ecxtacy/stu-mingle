@@ -1,0 +1,8 @@
+{
+  "name": "stu-mingle-backend",
+  "version": "1.0.0",
+  "description": "Backend server for stu-mingle.",
+  "main": "server.ts",
+  "author": "ecxtacy",
+  "license": "GPL3"
+}
