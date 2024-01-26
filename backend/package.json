@@ -5,9 +5,16 @@
   "main": "server.ts",
   "author": "ecxtacy",
   "license": "GPL3",
+  "scripts": {
+    "build": "yarn tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon ./server.ts"
+  },
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^20.11.7",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
 }
